@@ -1,0 +1,7 @@
+# Add NPM to path
+
+export PATH=/usr/local/share/npm/bin:$PATH
+
+# Add /usr/local/bin to path
+
+export PATH="/usr/local/bin:$PATH"
