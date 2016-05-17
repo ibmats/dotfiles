@@ -135,9 +135,11 @@ brew cask install --appdir="/Applications" backblaze-downloader
 brew cask install --appdir="/Applications" bartender
 brew cask install --appdir="/Applications" fantastical
 brew cask install --appdir="/Applications" flux
-brew cask install --appdir="~/Applications" iterm2
-brew cask install --appdir="~/Applications" java
-brew cask install --appdir="~/Applications" karabiner
+brew cask install hazel
+brew cask install --appdir="/Applications" istat-menus
+brew cask install --appdir="/Applications" iterm2
+brew cask install --appdir="/Applications" java
+brew cask install --appdir="/Applications" karabiner
 brew cask install --appdir="/Applications" omnifocus
 brew cask install --appdir="/Applications" pomodone
 brew cask install --appdir="/Applications" quitter
