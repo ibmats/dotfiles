@@ -226,3 +226,21 @@ function o() {
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
+
+# Testing this script to simplify Cask installation
+function cask() {
+	
+	if [ -z "$1" ]; then
+		echo "ERROR: No cask specified.";
+		return 1;
+	
+	else
+    
+	echo "Updating casks first, please be patient."
+	brew cask update
+	brew cask install $1
+	
+	fi;
+	
+	
+}
