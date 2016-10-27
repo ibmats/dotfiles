@@ -132,26 +132,27 @@ brew cask install --appdir="/Applications" 1password
 brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="/Applications" backblaze
 brew cask install --appdir="/Applications" backblaze-downloader
-brew cask install --appdir="/Applications" bartender
+# brew cask install --appdir="/Applications" bartender
 brew cask install --appdir="/Applications" fantastical
 brew cask install --appdir="/Applications" flux
+brew cask install --appdir="/Applications" freedome
 brew cask install hazel
 brew cask install --appdir="/Applications" istat-menus
 brew cask install --appdir="/Applications" iterm2
 brew cask install --appdir="/Applications" java
-brew cask install --appdir="/Applications" karabiner
-brew cask install --appdir="/Applications" omnifocus
-brew cask install --appdir="/Applications" pomodone
-brew cask install --appdir="/Applications" quitter
+# brew cask install --appdir="/Applications" karabiner
+# brew cask install --appdir="/Applications" omnifocus
+# brew cask install --appdir="/Applications" pomodone
+# brew cask install --appdir="/Applications" quitter
 brew cask install --appdir="/Applications" superduper
 brew cask install --appdir="/Applications" techstoreclub-simple-comic
-brew cask install --appdir="/Applications" textexpander
+# brew cask install --appdir="/Applications" textexpander
 brew cask install --appdir="/Applications" the-unarchiver
 brew cask install --appdir="/Applications" transmission
 brew cask install --appdir="/Applications" vlc
 
 # Development tool casks
-brew cask install --appdir="/Applications" visual-studio-code
+brew cask install --appdir="/Applications" atom
 brew cask install --appdir="/Applications" virtualbox
 
 # Misc casks
@@ -160,7 +161,7 @@ brew cask install --appdir="/Applications" dropbox
 
 
 # Install mysqlworkbench
-brew cask install --appdir="/Applications" mysqlworkbench
+# brew cask install --appdir="/Applications" mysqlworkbench
 
 
 # Link cask apps to Alfred
@@ -169,4 +170,3 @@ brew cask alfred link
 
 # Remove outdated versions from the cellar.
 brew cleanup
-
