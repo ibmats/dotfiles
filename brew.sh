@@ -127,51 +127,57 @@ brew install zopfli
 # Install Cask
 brew install caskroom/cask/brew-cask
 
+# Set default locations
+
+export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=/usr/local/Caskroom"
+
+# Make sure I have ownership of /usr/local/Caskroom
+
+sudo chown -R $(whoami):staff ~/Library/Caches/Homebrew /usr/local/Caskroom
+
 # Core casks
-brew cask install --appdir="/Applications" 1password
-brew cask install --appdir="/Applications" alfred
-brew cask install --appdir="/Applications" backblaze
-brew cask install --appdir="/Applications" backblaze-downloader
-brew cask install --appdir="/Applications" fantastical
-brew cask install --appdir="/Applications" flux
-brew cask install --appdir="/Applications" freedome
+brew cask install 1password
+brew cask install alfred
+brew cask install backblaze
+brew cask install backblaze-downloader
+brew cask install fantastical
+brew cask install flux
+brew cask install freedome
 brew cask install hazel
-brew cask install --appdir="/Applications" istat-menus
-brew cask install --appdir="/Applications" iterm2
-brew cask install --appdir="/Applications" java
-
-brew cask install --appdir="/Applications" superduper
-brew cask install --appdir="/Applications" techstoreclub-simple-comic
-
-brew cask install --appdir="/Applications" the-unarchiver
-brew cask install --appdir="/Applications" transmission
-brew cask install --appdir="/Applications" vlc
+brew cask install istat-menus
+brew cask install iterm2
+brew cask install java
+brew cask install superduper
+brew cask install techstoreclub-simple-comic
+brew cask install the-unarchiver
+brew cask install transmission
+brew cask install vlc
 
 # Development tool casks
-brew cask install --appdir="/Applications" atom
-brew cask install --appdir="/Applications" virtualbox
+brew cask install atom
+brew cask install virtualbox
 brew cask install intellij-idea
 
 # Misc casks
-brew cask install --appdir="/Applications" google-chrome
-brew cask install --appdir="/Applications" dropbox
+brew cask install google-chrome
+brew cask install dropbox
 
 
 # Install mysqlworkbench
-brew cask install --appdir="/Applications" mysqlworkbench
+brew cask install mysqlworkbench
 
 # Install Adobe Creative Cloud
 
-brew cask install --appdir="/Applications" adobe-creative-cloud
+brew cask install adobe-creative-cloud
 
 # No longer used but I saved them just in cause
 
-# brew cask install --appdir="/Applications" bartender
-# brew cask install --appdir="/Applications" karabiner
-# brew cask install --appdir="/Applications" omnifocus
-# brew cask install --appdir="/Applications" pomodone
-# brew cask install --appdir="/Applications" quitter
-# brew cask install --appdir="/Applications" textexpander
+# brew cask install bartender
+# brew cask install karabiner
+# brew cask install omnifocus
+# brew cask install pomodone
+# brew cask install quitter
+# brew cask install textexpander
 
 
 
